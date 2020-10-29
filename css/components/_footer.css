@@ -1,0 +1,107 @@
+.footer {
+	border-top: 1px solid #d9d9d9;
+	padding-top: 126px;
+}
+
+.footer__container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__title {
+	font-family: 'HelveticaNeue', sans-serif;
+	font-size: 12px;
+	letter-spacing: 2.15px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #100E0B;
+	position: relative;
+	margin-bottom: 31px;
+	padding-bottom: 35px;
+}
+
+.footer__title::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	background-color: #57A773;
+	width: 48px;
+	height: 1px;
+}
+
+.footer__link {
+	font-size: 13px;
+	line-height: 29px;
+	font-weight: 500;
+	color: #959EA6;
+	transition: color .3s;
+}
+
+.footer__link:hover{
+	transition: color .3s;
+	color: #666e75
+}
+
+.footer__item-bottom {
+	line-height: 0;
+}
+
+.footer__item-bottom:first-child {
+	margin-right: 50px;
+}
+
+.footer__form {
+	width: 368px;
+}
+
+.footer__form-field {
+	width: 100%;
+	height: 64px;
+	border-radius: 8px;
+	border: 1px solid #E4E4E4;
+	padding-left: 31px;
+	padding-right: 65px;
+	background-image: url('/img/icon-user.svg');
+	background-repeat: no-repeat;
+	background-position: calc(100% - 31px) center
+}
+
+.footer__form-btn {
+	background-color: var(--neptune-color);
+	margin-top: 15px;
+	width: 100%;
+	padding: 25px 0;
+	height: 64px;
+	transition: background-color .3s;
+}
+
+.footer__form-btn:hover{
+	background-color: #4196a6;
+	transition: background-color .3s;
+}
+
+.footer__bottom {
+	border-top: 1px solid #d9d9d9;
+	margin-top: 115px;
+	padding: 30px 0;
+}
+
+.footer__link-bottom {
+	font-family: 'SFProText', sans-serif;
+	font-weight: 400;
+}
+
+.footer__copy {
+	font-family: 'SFProText', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 29px;
+	font-weight: 500;
+	color: #959EA6;
+}
+
+.footer__politics {
+	display: flex;
+
+}

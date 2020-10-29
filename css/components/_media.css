@@ -1,0 +1,336 @@
+@media (max-width: 1500px) {
+	.featured__stories {
+		padding: 80px 80px;
+	}
+
+	.become__title {
+		max-width: 60%;
+	}
+}
+
+@media (max-width: 1200px) {
+	.become__title {
+		max-width: 70%;
+	}
+
+	.first__title {
+		max-width: 50%;
+	}
+
+	.featured__title {
+		font-size: 50px;
+	}
+
+	.featured__stories {
+		padding: 60px 40px;
+	}
+
+	.become__text {
+		font-size: 20px;
+		padding-left: 45px;
+	}
+
+	.slider-container .swiper-slide {
+		width: 650px;
+		min-height: 500px;
+	}
+
+	.newsletter__wrapper {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.subscribe-form {
+		width: 400px;
+		height: 350px;
+		bottom: -77px;
+		padding-top: 30px;
+		right: 100px;
+	}
+
+	.subscribe-form__button {
+		margin-top: 50px;
+	}
+
+	.main-slider__text {
+		font-size: 9px;
+	}
+
+	.first__slider-btn {
+		left: 30px;
+	}
+
+	.btn-next {
+		right: 30px;
+		left: auto;
+	}
+
+	.main-slider__play {
+		top: 30%;
+	}
+
+}
+
+
+@media (max-width: 992px) {
+	.first__title {
+		max-width: 60%;
+	}
+
+	.first__title {
+		font-size: 70px;
+	}
+
+	.first__descr {
+		max-width: 50%;
+	}
+
+	.first__slider-btn {
+		display: none;
+	}
+
+	.become {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+
+	.section-title {
+		font-size: 52px;
+	}
+
+	.featured-videos {
+		padding-top: 80px;
+	}
+
+	.featured {
+		height: 900px;
+	}
+
+	.featured__title {
+		font-size: 42px;
+		line-height: 60px;
+		margin-bottom: 20px;
+	}
+
+	.featured__stories {
+		width: 44%;
+		padding-top: 30px;
+	}
+
+	.blog-article__title {
+		font-size: 44px;
+	}
+
+	.newsletter {
+		padding-top: 50px;
+	}
+
+
+	.newsletter__wrapper {
+		height: 700px;
+		padding-top: 131px;
+		justify-content: flex-end;
+	}
+
+	.subscribe-form {
+		left: 40px
+	}
+
+	.slider-container .swiper-slide {
+		width: 450px;
+		min-height: 350px;
+	}
+
+	.inspirations {
+		padding-top: 40px;
+	}
+
+	.inspiratins__list {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.inspirations__item--big {
+		grid-column-start: 1;
+	}
+
+	.inspirations__item--bigheight {
+		height: 100%;
+	}
+
+	.inspiratins__title {
+		font-size: 26px;
+	}
+
+	.footer__form {
+		width: 260px;
+	}
+
+	.footer__copy {
+		width: 45%;
+	}
+
+	.footer__politics {
+		flex-direction: column;
+		align-items: flex-end;
+	}
+
+	.footer__item-bottom:first-child {
+		margin-right: 0;
+	}
+
+	.main-slider__text {
+		height: 80px;
+	}
+
+	.search-form {
+		height: 80px;
+		width: 50%;
+	}
+
+	.footer {
+		padding-top: 70px;
+	}
+
+	.inspirations {
+		margin-bottom: 0;
+	}
+
+}
+
+@media (min-width: 992px) {
+	.swiper-pagination {
+		visibility: hidden;
+	}
+}
+
+@media (max-width: 768px) {
+	.first__title {
+		font-size: 60px;
+		max-width: 80%;
+	}
+
+	.first__descr {
+		max-width: 70%;
+	}
+
+	.become__item {
+		width: 45%;
+	}
+
+	.become__list {
+		justify-content: space-evenly;
+	}
+
+	.slide-play {
+		width: 60px;
+		height: 60px;
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+
+	.footer__container {
+		flex-wrap: wrap;
+
+	}
+
+	.footer__column:last-child {
+		width: 100%;
+		margin-top: 40px;
+		align-content: center;
+	}
+
+	.search-form {
+		widows: 60%px
+	}
+
+	.subscribe-form {
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.newsletter__wrapper {
+		justify-content: center;
+	}
+
+	.inspiratins__list {
+		grid-auto-rows: minmax(400px, auto);
+	}
+
+	.featured {
+		height: auto;
+		padding-top: 50px;
+	}
+
+	.featured__stories {
+		width: 100%;
+		position: static;
+	}
+
+	.blog-article__title {
+		max-width: 90%;
+	}
+
+	.first__title {
+		max-width: 100%;
+	}
+
+	.first__btn {
+		padding: 25px 60px;
+	}
+
+	.become__title {
+		max-width: 94%;
+	}
+
+	.slider-container .swiper-slide {
+		width: calc(100% - 60px);
+	}
+
+	.slider-container {
+		padding: 60px 0;
+	}
+}
+
+@media (max-width: 380px) {
+	.section-title {
+		font-size: 36px;
+		line-height: 50px;
+	}
+
+	.become__list {
+		display: block;
+	}
+
+	.become__item {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.blog-article__descr {
+		max-width: 100%;
+	}
+
+	.blog-article__title {
+		max-width: 100%;
+	}
+
+	.blog-article {
+		padding-bottom: 60px;
+	}
+
+	.container {
+		padding: 0 15px;
+	}
+
+	.slider-container .swiper-slide-active {
+		transform: none;
+	}
+
+	.slider-container .swiper-slide {
+		width: calc(100% - 30px);
+	}
+
+	.slider-container {
+		padding: 60px 0;
+	}
+}

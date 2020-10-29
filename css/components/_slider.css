@@ -1,0 +1,114 @@
+.slider-container {
+	overflow: hidden;
+	width: 100%;
+	margin-top: 50px;
+	padding: 100px;
+}
+
+.slider-container .swiper-slide {
+	position: relative;
+	background: #E3E3E3;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	min-height: 550px;
+	width: 890px;
+	border-radius: 8px;
+	transition: all .4s;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: flex-end;
+	overflow: hidden;
+}
+
+.swiper-slide video {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.slide-title {
+	position: relative;
+	font-size: 28px;
+	font-weight: 700;
+	color: var(--white-color);
+	z-index: 20;
+	margin-bottom: 27px;
+	margin-left: 33px;
+	transition: transform .3s;
+	transform: translateY(200px);
+}
+
+.slide-play {
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-image: url('/img/play-video.svg');
+	width: 112px;
+	height: 112px;
+	margin-left: 48px;
+	margin-top: 39px;
+	opacity: 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+.swiper-slide-active .slide-play {
+	opacity: 1;
+	transition: all .4s
+}
+
+.slide-play:hover{
+  opacity: .8;
+}
+
+.swiper-slide-active .slide-title {
+	transition: transform .3s;
+	transform: translateY(0px);
+}
+
+.slider-container .swiper-slide::after {
+	content: '';
+	position: absolute;
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 50%, rgba(0, 0, 0, 0.461617) 100%);
+	left: 0;
+	bottom: 0;
+	height: 60%;
+	width: 100%;
+	opacity: 0;
+	transition: opacity .3s;
+}
+
+.slider-container .slide-1 {
+	background-image: url('/img/video-slider-1.jpg');
+}
+
+.slider-container .slide-2 {
+	background-image: url('/img/video-slider-2.jpg');
+}
+
+.slider-container .slide-3 {
+	background-image: url('/img/video-slider-3.jpg');
+}
+
+.slider-container .slide-4 {
+	background-image: url('/img/video-slider-1.jpg');
+}
+
+.slider-container .swiper-slide-active {
+	transform: scaleX(1.16) scaleY(1.2);
+	transition: transform .4s;
+}
+
+.slider-container .swiper-slide-active::after {
+	opacity: 1;
+	transition: opacity .3s;
+}
+
+.featured-videos {
+	padding-top: 150px;	
+}
